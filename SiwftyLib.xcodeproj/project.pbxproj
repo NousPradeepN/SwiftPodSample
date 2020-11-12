@@ -17,7 +17,7 @@
 		18CA34D6255BF1BB00E8D5C1 /* SwiftyLibDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA34D5255BF1BB00E8D5C1 /* SwiftyLibDemoTests.swift */; };
 		18CA34E1255BF1BB00E8D5C1 /* SwiftyLibDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA34E0255BF1BB00E8D5C1 /* SwiftyLibDemoUITests.swift */; };
 		18CA34F1255BF22000E8D5C1 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA34F0255BF22000E8D5C1 /* SwiftyLib.swift */; };
-		18CA353C255C13D900E8D5C1 /* SwiftLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18CA353B255C13D900E8D5C1 /* SwiftLib.podspec */; };
+		18CA3546255D497500E8D5C1 /* SiwftyLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18CA3545255D497500E8D5C1 /* SiwftyLib.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		18CA34E0255BF1BB00E8D5C1 /* SwiftyLibDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibDemoUITests.swift; sourceTree = "<group>"; };
 		18CA34E2255BF1BB00E8D5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CA34F0255BF22000E8D5C1 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
-		18CA353B255C13D900E8D5C1 /* SwiftLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftLib.podspec; sourceTree = "<group>"; };
+		18CA3545255D497500E8D5C1 /* SiwftyLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SiwftyLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,7 @@
 		18CA34A2255BF0CC00E8D5C1 = {
 			isa = PBXGroup;
 			children = (
+				18CA3545255D497500E8D5C1 /* SiwftyLib.podspec */,
 				18CA34AE255BF0CC00E8D5C1 /* SiwftyLib */,
 				18CA34BD255BF1B700E8D5C1 /* SwiftyLibDemo */,
 				18CA34D4255BF1BB00E8D5C1 /* SwiftyLibDemoTests */,
@@ -116,7 +117,6 @@
 		18CA34AE255BF0CC00E8D5C1 /* SiwftyLib */ = {
 			isa = PBXGroup;
 			children = (
-				18CA353B255C13D900E8D5C1 /* SwiftLib.podspec */,
 				18CA34AF255BF0CC00E8D5C1 /* SiwftyLib.h */,
 				18CA34B0255BF0CC00E8D5C1 /* Info.plist */,
 				18CA34F0255BF22000E8D5C1 /* SwiftyLib.swift */,
@@ -293,7 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CA353C255C13D900E8D5C1 /* SwiftLib.podspec in Resources */,
+				18CA3546255D497500E8D5C1 /* SiwftyLib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
